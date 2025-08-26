@@ -12,6 +12,6 @@ models:
         tests:
           - not_null
           - unique
-        data_type: text
+        data_type: string
       - name: customer_name
-        data_type: text
+        data_type: string
