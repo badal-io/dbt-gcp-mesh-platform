@@ -12,10 +12,10 @@ models:
         tests:
           - not_null
           - unique
-        data_type: text
+        data_type: string
       - name: location_name
-        data_type: text
+        data_type: string
       - name: tax_rate
         data_type: float
       - name: opened_at
-        data_type: timestamp_ntz
+        data_type: timestamp
