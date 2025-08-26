@@ -2,7 +2,11 @@ name: "jaffle_shop_mesh_platform"
 version: "2.1.0"
 config-version: 2
 
+<<<<<<< HEAD
 profile: "bigquery"
+=======
+profile: default
+>>>>>>> 459f42effc2eec68d4fe92ecaf766ffca25c1f52
 require-dbt-version: ">=1.6.0"
 
 model-paths: ["models"]
