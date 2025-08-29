@@ -38,3 +38,5 @@ The project uses dbt groups for data ownership:
 - Consistent field naming and type standardization
 - Price normalization (cents to dollars conversion)
 - Boolean flags for product categorization
+
+#### Advanced Features
