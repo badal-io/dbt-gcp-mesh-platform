@@ -1,13 +1,13 @@
 groups:
   - name: platform
     owner:
-      email: jaff.bridges@jaffleshop.com
-      name: Jaff Bridges
+      email: tony.stark@badal.io
+      name: Tony Stark
   - name: finance
     owner:
-      email: zach.jaff@jaffleshop.com
-      name: Zach Jaff
+      email: bruce.wayne@badal.io
+      name: Bruce Wayne
   - name: marketing
     owner:
-      email: ben.jaffleck@jaffleshop.com
-      name: Ben Jaffleck
+      email: peter.parker@badal.io
+      name: Peter Parker
