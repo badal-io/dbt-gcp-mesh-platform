@@ -1,5 +1,6 @@
 models:
   - name: stg_products
+    latest_version: 1
     description: Product (food and drink items that can be ordered) data with basic cleaning and transformation applied, one row per product.
     access: public
     group: platform
@@ -25,3 +26,22 @@ models:
         data_type: boolean
       - name: is_drink_item
         data_type: boolean
+    versions:
+      - v: 1
+        config:
+          alias: stg_products
+      - v: 2
+        config:
+          contract:
+            enforced: true
+        columns:
+          - name: price_usd 
+            data_type: FLOAT64
+          - name: product_price_rounded
+            description: Rounded product price in USD.
+            data_type: FLOAT64
+          - name: is_edible_item
+            description: True if product is food or drink.
+            data_type: boolean
+          - include: all
+            exclude: [product_price]
